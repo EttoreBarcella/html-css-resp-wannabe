@@ -84,7 +84,7 @@ img {
   }
 
   #lezioni .row img, #why .row img {
-  width: 100%;
+  width: 50%;
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
@@ -95,4 +95,30 @@ img {
   width: 100%;
   }
 
+}
+
+@media screen and (min-width: 421px) and (max-width: 800px){
+  .row, .container.grey {
+    width: 100%;
+  }
+
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: 100%;
+    float: left;
+  }
+
+  #lezioni .row img, #why .row img {
+    width: 50%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    float: left;
+    width: 50%;
+  }
+  #steps .row>.right{
+    padding: 0 25%;
+  }
 }
