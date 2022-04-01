@@ -74,7 +74,7 @@ img {
 
 @media screen and (max-width: 420px){ 
   
-  .row {
+  .row, .container.grey {
     width: 100%;
   }
 
@@ -83,13 +83,16 @@ img {
   float: left;
   }
 
-  #lezioni .row img {
+  #lezioni .row img, #why .row img {
   width: 100%;
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
-}
+  }
 
-  
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+  float: left;
+  width: 100%;
+  }
 
 }
